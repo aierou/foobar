@@ -2,7 +2,7 @@ import itertools, datetime
 
 def getDate(test):
 	try:
-		return datetime.date(*test)
+		return datetime.date(*test) # * converts list to arguments
 	except ValueError:
 		return None
 
